@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+    <link href="game.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+</head>
+<body>
+   <div id="sitecontainer">
+       <header class="pageheader">  
+            <div class="container">
+               <img id="img1" src="img/0_riot_games_logo.jpg">
+               <div class="bottom-left1">
+                    <nav id="nav">
+                       <a href="index.html#popular">POPULAR</a>
+                       <a href="index.html#newrelease">NEW RELEASES</a>
+                       <a href="index.html#onsale">ON SALE</a>
+                   </nav>
+               </div>
+
+           </div>
+       </header>
+   
+      </nav>
+
+       <section class="pagesection">
+               <div class="section1">
+                   <div id="section1d1">
+                    <div class="container">
+                        <div id="score"> Your Score: 0</div>
+                        <div id="level"> Level: 1</div>
+                        <div id="life"> Life: 3</div>
+                        <div id="timer_div"></div>
+                        <h1 id="won"></h1>
+                       <div><canvas id="myCanvas"></canvas></div> 
+                       <iframe src="sounds/Adventure Meme.mp3" allow="autoplay" style="display:none" id="startAudio"></iframe> 
+                    </div> 
+   
+                   </div>
+                       <div id="btn2">
+                          <button id="play" class="btn">Play</button>                        
+                          <button id="reset" class="btn">Reset</button>
+                          <button id="content" class="btn">Score</button>
+                           <button id="instruction" class="btn">Instruction</button>
+
+                       </div>
+                       <div id="records"> 
+                          <table  style="width:30%">
+                              <tr>
+                                <th>Player Name</th>
+                                <th>Score</th>
+                              </tr>
+                              <tr>
+                                <td id="name"></td>
+                                <td id="scoree"></td>                                
+                              </tr>                             
+                            </table>
+                      </div>
+
+                      <div id="Instruction"> 
+                          <table id="instructionTable" style="width:30%">
+                              <tr>
+                                <th>Game Instruction</th>
+                              </tr>
+                              <tr>
+                                <td id="instructionText"></td>
+                              </tr>                             
+                            </table>
+                      </div>
+       <footer id="pagefooter">
+         <div id="footerone">
+            <div id="footeroneleft">
+              <h2>Games Lovers</h2>
+              <p> 
+               © 2018 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+               </p>
+            </div>
+            <div id="footeroneright">
+              <img class="pagefooterimage" src="img/PayPal-1.png">
+              <img class="pagefooterimage" src="img/mastercart.jpg">
+            </div>
+         </div>
+
+       </footer>
+       <script src="game.js"></script>
+
+   </div>
+
+</body>
+</html>
